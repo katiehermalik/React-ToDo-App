@@ -6,7 +6,9 @@ const Todos = (props) => {
     return (
       <Todo
         key={todo._id}
-        todo={todo} />
+        todo={todo} 
+        updateTodo={props.updateTodo}
+        deleteTodo={props.deleteTodo} />
     );
   });
 

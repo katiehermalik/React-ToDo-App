@@ -17,7 +17,7 @@ li:after {
     content: " ";
     clear: both;
     height: 0;
-    }
+}
 li { display: inline-block; }
 /* start commented backslash hack \*/
 * html li { height: 1%; }
